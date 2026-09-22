@@ -68,6 +68,7 @@ int main(){
     training and testing is as simple as this : */
     int size[] = {784, 12, 12, 10}; // suitable MLP for the MNIST database
     MLP mymlp(4, size);
+    mymlp.test(testing_set, testing_labels);
     mymlp.train(training_set, training_labels, 0.05);
     mymlp.test(testing_set, testing_labels);
 }
