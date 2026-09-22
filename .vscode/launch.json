@@ -33,8 +33,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-            "args": [-I 
-            C:\Users\biris\Documents\eigen-5.0.0],
+            "args": [],
             "stopAtEntry": false,
             "cwd": "C:/msys64/ucrt64/bin",
             "environment": [],
