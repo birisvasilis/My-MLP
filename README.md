@@ -15,10 +15,11 @@ two contain the accompanying labels to each of the training and testing sets.
 Once the data is formated correctly, training the MLP is as simple as calling the train() member function, passing the training set and training labels vectors, as well
 as the learning rate parameter that is used during the stochastic gradient descent. Testing the MLP is done by using the test() member function, passing the testing set and corresponing
 labels vectors. Both functions provide percentage-based progress updates on the training and testing procedures, while the test() function provides the exact number of 
-correct choices and the accuracy of the MLP on the given testing set.
+correct choices and the accuracy of the MLP on the given testing set. For example, as seen on MLP_example.cpp, the MLP is trained on the MNNIST dataset and is clearly much
+more competent at recognizing the correct digit when trained on the training data compared to before:
 
-<img width="398" height="70" alt="image" src="https://github.com/user-attachments/assets/74c8b38d-ecd7-4da7-bf49-11994ae27736" />
 
+<img width="405" height="102" alt="image" src="https://github.com/user-attachments/assets/745471a8-a029-4584-8fcc-c09f7a5c8c7b" />
 
 
 
